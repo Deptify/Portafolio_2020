@@ -1,0 +1,96 @@
+html{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9c9a77;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%233155c1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    
+    
+   
+}
+:root{
+    --margin-01: 5px;
+    --margin-02: calc(var(--margin-01) *2);
+    --margin-02: calc(var(--margin-01) *3);
+    --margin-02: calc(var(--margin-01) *4);
+    --margin-02: calc(var(--margin-01) *5);
+
+    --bg-01: #a4c549;
+    --bg-02: #a83636;
+    --danger: #ff0000;
+    --hl-01:#58c258;
+}
+header{
+    background-color: #e8de5f;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%233155c1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    justify-content: center;
+    
+
+}
+
+
+main{
+    display: flex;
+    flex-grow: 1;
+    background-color: #e8de5f;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%233155c1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+}
+h1{
+    background-color: var(--bg-01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p{
+    background-color: var(--hl-01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+article{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.titulo{
+    background-color: var(--danger);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+   
+}
+#te{
+    align-items: center;
+    font-size: 20px;
+}
+.info{
+    background-color: var(--bg-01);
+    font-size: 20px;
+}
+
+img{
+    width: 700px;
+    margin: 50px;
+    display: flex;
+    border-style: dashed;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#bu{
+    justify-content: space-around 10px;
+    align-items: flex-start;
+    width: 150px;
+    padding: 10px;
+    background-color: var(--bg-02);
+
+
+}
