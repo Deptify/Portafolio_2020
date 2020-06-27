@@ -21,7 +21,12 @@ html{
     --danger: #ff0000;
     --hl-01:#58c258;
 }
+
+   
 header{
+    display: flex;
+   
+    flex-grow: 1;
     background-color: #e8de5f;
     background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%233155c1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     justify-content: center;
@@ -32,10 +37,16 @@ header{
 
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-grow: 1;
     background-color: #e8de5f;
     background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40c5.523 0 10-4.477 10-10V0C4.477 0 0 4.477 0 10v30zm22 0c-5.523 0-10-4.477-10-10V0c5.523 0 10 4.477 10 10v30z' fill='%233155c1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 
+}
+.yo{
+    max-width: 700px;
+    width: 500px;
 }
 h1{
     background-color: var(--bg-01);
@@ -57,6 +68,12 @@ article{
     justify-content: center;
     flex-grow: 1;
 }
+.top{
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
 .titulo{
     background-color: var(--danger);
     font-size: 20px;
@@ -67,6 +84,7 @@ article{
    
 }
 #te{
+    max-width: 700px;
     align-items: center;
     font-size: 20px;
 }
@@ -86,11 +104,13 @@ img{
 }
 
 #bu{
-    justify-content: space-around 10px;
-    align-items: flex-start;
-    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    box-sizing: 100px;
+    max-width: 500px;
     padding: 10px;
     background-color: var(--bg-02);
-
-
 }
